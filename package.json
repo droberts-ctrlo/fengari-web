@@ -15,8 +15,6 @@
     "homepage": "https://github.com/fengari-lua/fengari-web#readme",
     "main": "dist/fengari-web.bundle.js",
     "dependencies": {
-        "baseline-browser-mapping": "^2.9.6",
-        "caniuse-lite": "^1.0.30001760",
         "fengari": "^0.1.5",
         "fengari-interop": "^0.1.4"
     },
