@@ -1,5 +1,5 @@
 {
-    "name": "fengari-web",
+    "name": "@ctrlo/fengari-web",
     "version": "0.1.6",
     "description": "Provides anything you need to run Fengari in the browser",
     "repository": "https://github.com/droberts-ctrlo/fengari-web.git",
@@ -15,10 +15,9 @@
     },
     "homepage": "https://github.com/droberts-ctrlo/fengari-web#readme",
     "main": "src/fengari-web.js",
-    "dependencies": {
-        "fengari": "^0.1.6",
-        "fengari-interop": "^0.1.6",
-        "path-browserify": "^1.0.1"
+    "peerDependencies": {
+        "@ctrlo/fengari": "^0.1.6",
+        "@ctrlo/fengari-interop": "^0.1.6"
     },
     "devDependencies": {
         "@babel/core": "^7.28.5",
@@ -29,11 +28,5 @@
         "globals": "^16.5.0",
         "webpack": "^5.103.0",
         "webpack-cli": "^6.0.1"
-    },
-    "scripts": {
-        "build": "webpack --mode production",
-        "lint": "eslint webpack.config.js src/",
-        "prepare": "npm run build",
-        "prepublishOnly": "git diff-index --quiet --cached HEAD -- && npm run lint"
     }
 }
