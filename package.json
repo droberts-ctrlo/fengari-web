@@ -1,8 +1,9 @@
 {
     "name": "fengari-web",
-    "version": "0.1.4",
+    "version": "0.1.6",
     "description": "Provides anything you need to run Fengari in the browser",
-    "repository": "https://github.com/fengari-lua/fengari-web.git",
+    "repository": "https://github.com/droberts-ctrlo/fengari-web.git",
+    "type": "module",
     "contributors": [
         "Benoit Giannangeli <giann008@gmail.com>",
         "Daurnimator <quae@daurnimator.com>",
@@ -10,13 +11,14 @@
     ],
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/fengari-lua/fengari-web/issues"
+        "url": "https://github.com/droberts-ctrlo/fengari-web/issues"
     },
-    "homepage": "https://github.com/fengari-lua/fengari-web#readme",
-    "main": "dist/fengari-web.bundle.js",
+    "homepage": "https://github.com/droberts-ctrlo/fengari-web#readme",
+    "main": "src/fengari-web.js",
     "dependencies": {
-        "fengari": "^0.1.5",
-        "fengari-interop": "^0.1.4"
+        "fengari": "^0.1.6",
+        "fengari-interop": "^0.1.6",
+        "path-browserify": "^1.0.1"
     },
     "devDependencies": {
         "@babel/core": "^7.28.5",

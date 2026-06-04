@@ -1,3 +1,7 @@
+0.1.6 - 2026-06-04
+
+  - Moved over to ES modules
+
 0.1.4 - 2018-11-19
 
   - Release is to fix broken npm package
