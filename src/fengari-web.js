@@ -20,8 +20,8 @@ import {
     lua,
     lauxlib,
     lualib
-} from 'fengari';
-import * as interop from 'fengari-interop';
+} from '@ctrlo/fengari';
+import * as interop from '@ctrlo/fengari-interop';
 
 const {
     LUA_ERRRUN,
