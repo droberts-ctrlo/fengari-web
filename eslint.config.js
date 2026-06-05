@@ -13,7 +13,6 @@ export default defineConfig([
             "@typescript-eslint/no-explicit-any": "off",
             '@stylistic/quotes': ['error', 'single'],
             '@stylistic/no-extra-semi': 'error',
-            '@stylistic/semi': ['error', 'always'],
             '@stylistic/curly-newline': 'error',
             '@stylistic/indent': ['error', 4],
             '@stylistic/comma-dangle': ['error', 'never'],
